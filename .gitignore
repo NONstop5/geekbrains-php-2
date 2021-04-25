@@ -1,0 +1,28 @@
+.DS_Store
+.idea
+*.ai
+*.log
+*.pdf
+*.psd
+*.sublime*
+Thumbs.db
+.vscode/*
+/nbproject/private/
+
+/Docker/mysql/
+
+###> symfony/framework-bundle ###
+/.env.local
+/.env.local.php
+/.env.*.local
+/config/secrets/prod/prod.decrypt.private.php
+/public/bundles/
+/var/
+/vendor/
+###< symfony/framework-bundle ###
+
+###> symfony/phpunit-bridge ###
+.phpunit
+.phpunit.result.cache
+/phpunit.xml
+###< symfony/phpunit-bridge ###
